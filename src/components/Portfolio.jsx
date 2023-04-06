@@ -1,4 +1,8 @@
 import React from 'react'
+import site1 from './img/portfolio/site1.png'
+import site2 from './img/portfolio/site2.png'
+import site3 from './img/portfolio/site3.png'
+import site4 from './img/portfolio/site4.png'
 
 function Portfolio(){
     return(
@@ -16,10 +20,10 @@ function Portfolio(){
                 </tr>
             </table>
             <div class="portfolio-mobile">
-                <img src="img/portfolio/site1.png" class="portfolio-mobile-cell"/>
-                <img src="img/portfolio/site2.png" class="portfolio-mobile-cell"/>
-                <img src="img/portfolio/site3.png" class="portfolio-mobile-cell"/>
-                <img src="img/portfolio/site4.png" class="portfolio-mobile-cell"/>
+                <img src = {site1} class="portfolio-mobile-cell"/>
+                <img src = {site2} class="portfolio-mobile-cell"/>
+                <img src = {site3} class="portfolio-mobile-cell"/>
+                <img src = {site4} class="portfolio-mobile-cell"/>
             </div>
         </div>
     </div>

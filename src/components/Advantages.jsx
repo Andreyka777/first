@@ -1,4 +1,6 @@
 import React from 'react'
+import advcircle from './img/background/advantages_bg_1.svg'
+import advhexagon from './img/background/advantages_bg_2.svg'
 
 function Advantages(){
     return(
@@ -32,8 +34,8 @@ function Advantages(){
                 </div>
             </div>
             <div class="advantages-bg">
-                <img src="img/background/advantages_bg_1.svg" class="advangages-circle"/>
-                <img src="img/background/advantages_bg_2.svg" class="advangages-hexagon"/>
+                <img src = {advcircle} class="advangages-circle"/>
+                <img src = {advhexagon} class="advangages-hexagon"/>
             </div>
         </div>
     </div>
